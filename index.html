@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galería de juegos creados por estudiantes de LDI, Tec de Monterrey, Campus Guadalajara. Juega y explora el código.">
+  <title>Galería de juegos · LDI</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23c51162'/%3E%3Ctext x='32' y='45' font-family='sans-serif' font-size='36' font-weight='bold' fill='white' text-anchor='middle'%3EL%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <img class="brand-logo" src="imgs/logo%20LDI%20negro_small.png" alt="Logotipo de LDI">
+      <p class="descriptor">LDI · Licenciatura en Diseño · Tec de Monterrey, Campus Guadalajara</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>Diseña lo que sigue</h1>
+      <p class="hero-sub">Galería de juegos hechos por la comunidad LDI.</p>
+      <p>Explora cada proyecto: entra a jugar o abre el repositorio para ver cómo corre por dentro. Todo lo que ves aquí lo construyeron estudiantes, pruébalo y aprende de su código.</p>
+      <p class="count" id="count" aria-live="polite"></p>
+    </section>
+
+    <section aria-label="Proyectos">
+      <div class="grid" id="grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>LDI · Licenciatura en Diseño · Tec de Monterrey, Campus Guadalajara</strong></p>
+      <p>LDI es una marca aliada y reconocible del ecosistema Tec; este sitio es un proyecto de la comunidad para compartir y aprender.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
